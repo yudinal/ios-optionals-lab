@@ -92,7 +92,7 @@ if Bool.random() {
 Write code that either doubles `myInt` and then prints it, or prints an error message if myInt is nil.
 
 ```swift
-let myInt: Int?
+var myInt: Int?
 if Bool.random() {
  myInt = 5
 }
