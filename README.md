@@ -69,9 +69,9 @@ Given an optional tuple of optional Ints, write code to safely unwrap the tuple 
 ```swift
 var scores: (Int?, Int?, Int?)?
 
-var testCaseOne = (4, nil, 7)
-var testCaseTwo = (nil, nil, 9)
-var testCaseThree = (5, 10, 24)
+var testCaseOne: (Int?, Int?, Int?)? = (4, nil, 7)
+var testCaseTwo: (Int?, Int?, Int?)? = (nil, nil, 9)
+var testCaseThree: (Int?, Int?, Int?)? = (5, 10, 24)
 ```
 
 
