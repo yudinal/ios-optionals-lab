@@ -221,7 +221,7 @@ for i in 0..<20 {
     someNumbers.append(Bool.random() ? i : nil)
 }
 ```
-
+# Bonus 
 
 ## Question 16
 
