@@ -223,7 +223,7 @@ for i in 0..<20 {
 ```
 # Bonus 
 
-## Question 16
+## Question 1
 
 Given the array `poorlyFormattedCityNames`, create a new array with the city names capitalized and any nil values removed.
 
@@ -234,7 +234,7 @@ Output: ["New York", "Boston", "Chicago", "Los Angeles", "Dallas"]
 ```
 
 
-## Question 17
+## Question 2
 
 Given a random array of optional numbers, create a new array of all the even numbers that aren't nil.
 
@@ -247,14 +247,14 @@ for _ in 0..<20 {
 ```
 
 
-## Question 18
+## Question 3
 
 Given the following array of zip codes as strings, write code that turns them into an array of Ints.
 
 `let zipCodeStrings = ["11377", "11101", "11373", "10014", "10003", "11223"]`
 
 
-## Question 19
+## Question 4
 
 Some students were asked some questions about their favorite foods and colors and the answers were stored in an array `studentInfo`.
 
@@ -267,7 +267,7 @@ Some students were asked some questions about their favorite foods and colors an
 `let studentInfo: [(String, String?, String?)] = [("Bill", "Burgers", "Blue"), ("Rita", nil, "Red"), ("Peter", "Pizza", "Purple"), ("Sarah", "Sandwiches", nil), ("Jeff", nil, nil), ("Lucy", "Leftovers", "Lilac"), ("Mike", "Meat", "Mauve"), ("Gemma", nil, "Green")]`
 
 
-## Question 20
+## Question 5
 
 Given an optional array of optional tuples of optional UInt8s,
 
@@ -278,7 +278,7 @@ Given an optional array of optional tuples of optional UInt8s,
 `let possibleColors: [(r: UInt8?, g: UInt8?, b: UInt8?)?]? = [(128, 21, 7), (0, 0, 0), nil, (nil, 25, 82), (255, 255, 255), nil, (200, 100, nil), (120, nil, 23), (0, 255, 106), (nil, nil, nil), nil, (100, 100, 200)]`
 
 
-## Question 21
+## Question 6
 
 Consider the following nested optional. It corresponds to a number inside a box inside a box inside a box.
 
@@ -289,7 +289,7 @@ Consider the following nested optional. It corresponds to a number inside a box 
 `let number: Int??? = 10`
 
 
-## Question 22
+## Question 7
 
 Given an Array of Optional Strings, write code that concatenates all non-nil values together except for strings with 3 or more vowels.
 
@@ -298,7 +298,7 @@ Given an Array of Optional Strings, write code that concatenates all non-nil val
 output: `"apesmonkeyslemurs"`
 
 
-## Question 23
+## Question 8
 
 Given the value below, print out all of the non-nil Ints it contains by accessing each of them.
 
