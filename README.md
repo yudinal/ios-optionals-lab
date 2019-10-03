@@ -19,13 +19,19 @@ var userNameTwo: String? = nil
 
 ## Question 2
 
-Given an optional width and an optional height of a rectangle, write code that calculates and prints the area. Print an error message if either value is nil.
+a. Given the variables `rectOneWidth` and `rectOneHeight` below, print "The area of rectOne is 50".  Use *Optional Binding* (`if let`) to print the area.
 
 ```swift
-var width: Double?
-var height: Double?
+var rectOneWidth: Double? = 5
+var rectOneHeight: Double? = 10
 ```
 
+b. Given the varialbes `rectTwoWidth` and `rectTwoHeight` below, print "The are of rectTwo is not able to be calculated".  Use *Optional Binding* (`if let`) to print this message.
+
+```swift
+var rectTwoWidth: Double? = nil
+var rectTwoHeight: Double? = nil
+```
 
 ## Question 3
 
