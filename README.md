@@ -55,7 +55,7 @@ var userTwoHeight: Double? = nil
 
 ## Question 4
 
-Give the variable `favoriteNumber`, write code that either prints "Your favoriate number is " followed by the number, or "I don't know what your favorite number is"
+Give the variable `favoriteNumber`, write code that either prints "Your favorite number is " followed by the number, or "I don't know what your favorite number is"
 
 `favoriteNumber` is of type Int? and will either be `nil` or a random number between 0 and 10.  It will change each time you run your Playground.
 
