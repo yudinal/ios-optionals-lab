@@ -55,13 +55,14 @@ var userTwoHeight: Double? = nil
 
 ## Question 4
 
-Given the variables `firstName`, `middleName` and `lastName`. Create a variable called `fullName` that is a nicely formatted string.
+Give the variable `favoriteNumber`, write code that either prints "Your favoriate number is " followed by the number, or "I don't know what your favorite number is"
+
+favoriateNumber is of type Int? and will either be `nil` or a random number between 0 and 10.  It will change each time you run your Playground.
 
 ```swift
-var firstName: String = "Johnny"
-var middleName: String?
-var lastName: String = "Stone"
+var favoriteNumber = Bool.random() ? Int.random(in: 0...10) : nil
 ```
+
 
 
 ## Question 5
