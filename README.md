@@ -67,10 +67,13 @@ var favoriteNumber = Bool.random() ? Int.random(in: 0...10) : nil
 
 ## Question 5
 
-Write code that adds 15 to `myIntString`, then prints the sum. Use the `Int()` constructor which returns an optional Int `(Int?)`.
+Given the variables `numOne`, `numTwo` and `numThree`, write code that prints "The sum of all the numbers is " followed by their sum.  If a number is `nil`, don't add it to the sum.  If all numbers are `nil`, the sum is zero.
 
-`let myIntString = "35"`
-
+```swift
+var numOne = Bool.random() ? Int.random(in: 0...10) : nil
+var numTwo = Bool.random() ? Int.random(in: 0...10) : nil
+var numThree = Bool.random() ? Int.random(in: 0...10) : nil
+```
 
 ## Question 6
 
