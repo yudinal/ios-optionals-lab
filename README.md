@@ -77,6 +77,20 @@ var numThree = Bool.random() ? Int.random(in: 0...10) : nil
 
 ## Question 6
 
+a. Given the variable `numbers` below, write code that prints "The sum of all the numbers is " followed by their sum.  If a number is `nil`, don't add it to the sum.  If all numbers are `nil`, the sum is zero.
+
+```swift
+var numbers = [Int?]()
+
+for _ in 0..<10 {
+    numbers.append(Bool.random() ? Int.random(in: 0...100) : nil)
+}
+```
+
+b. Using the same variable, find the average of all non-nil values.
+
+## Question 6
+
 Given an optional tuple of optional Ints, write code to safely unwrap the tuple and calculate the sum of its contents that aren't nil.
 
 ```swift
