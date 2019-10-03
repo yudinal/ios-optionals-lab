@@ -57,7 +57,7 @@ var userTwoHeight: Double? = nil
 
 Give the variable `favoriteNumber`, write code that either prints "Your favoriate number is " followed by the number, or "I don't know what your favorite number is"
 
-favoriateNumber is of type Int? and will either be `nil` or a random number between 0 and 10.  It will change each time you run your Playground.
+`favoriteNumber` is of type Int? and will either be `nil` or a random number between 0 and 10.  It will change each time you run your Playground.
 
 ```swift
 var favoriteNumber = Bool.random() ? Int.random(in: 0...10) : nil
