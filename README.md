@@ -88,3 +88,7 @@ for _ in 0..<10 {
 ```
 
 b. Using the same variable, find the average of all non-nil values.
+
+## Extra Questions
+
+https://github.com/joinpursuit/Pursuit-Core-iOS-Extra-Optionals-Questions/blob/master/README.md
