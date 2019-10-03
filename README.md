@@ -19,13 +19,6 @@ var userNameTwo: String? = nil
 
 ## Question 2
 
-Given optional string `backgroundColor`, write code that safely unwraps and prints it. If backgroundColor is nil, give it a value.
-
-`var backgroundColor: String?`
-
-
-## Question 3
-
 Given an optional width and an optional height of a rectangle, write code that calculates and prints the area. Print an error message if either value is nil.
 
 ```swift
@@ -34,7 +27,7 @@ var height: Double?
 ```
 
 
-## Question 4
+## Question 3
 
 Given the following optional variables `name`, `age` and `height`. Write code so that it prints `name`, `age` and `height` if they all have a value. If any are nil, print an error message. Try using optional binding.
 
@@ -45,7 +38,7 @@ var height: Double?
 ```
 
 
-## Question 5
+## Question 4
 
 Given the variables `firstName`, `middleName` and `lastName`. Create a variable called `fullName` that is a nicely formatted string.
 
@@ -56,14 +49,14 @@ var lastName: String = "Stone"
 ```
 
 
-## Question 6
+## Question 5
 
 Write code that adds 15 to `myIntString`, then prints the sum. Use the `Int()` constructor which returns an optional Int `(Int?)`.
 
 `let myIntString = "35"`
 
 
-## Question 7
+## Question 6
 
 Given an optional tuple of optional Ints, write code to safely unwrap the tuple and calculate the sum of its contents that aren't nil.
 
@@ -76,7 +69,7 @@ var testCaseThree: (Int?, Int?, Int?)? = (5, 10, 24)
 ```
 
 
-## Question 8
+## Question 7
 
 Safely unwrap `tuple` if there’s a non-nil tuple value and print it out.
 
@@ -88,7 +81,7 @@ if Bool.random() {
 ```
 
 
-## Question 9
+## Question 8
 
 Write code that either doubles `myInt` and then prints it, or prints an error message if myInt is nil.
 
@@ -100,7 +93,7 @@ if Bool.random() {
 ```
 
 
-## Question 10
+## Question 9
 
 Write code that prints out the product of `myDouble` and `doubleTwo` or prints an error message if `myDouble` is nil.
 
@@ -114,7 +107,7 @@ if Bool.random() {
 ```
 
 
-## Question 11
+## Question 10
 
 Determine if the variable contains a Boolean or nil value. If nil set the variable to false, else keep it true.
 
@@ -127,7 +120,7 @@ if Bool.random() {
 ```
 
 
-## Question 12
+## Question 11
 
 Given the code below print the sum of each non-nil element in `myTuple`.
 
@@ -144,7 +137,7 @@ if Bool.random() {
 ```
 
 
-## Question 13
+## Question 12
 
 Given the helper functions and code below, check to see if your `evolutionaryStone` is able to evolve your pokemon.  The table below shows the appropriate matches of pokemon to stone:
 
@@ -198,7 +191,7 @@ evolutionaryStone = eStone()
 ```
 
 
-## Question 14
+## Question 13
 
 Given an optional int `numberOfPeople`, write code that unwraps and prints it **only if it is even**. Try using optional binding with a condition.
 
@@ -211,7 +204,7 @@ if Bool.random() {
 ```
 
 
-## Question 15
+## Question 14
 
 Given the array of optional Ints `someNumbers`, write code to find the product of the array not including any nil values.
 
