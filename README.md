@@ -5,16 +5,17 @@ Fork and clone this repo. On your fork, answer and commit the follow questions. 
 
 ## Question 1
 
-`var userName: String?`
+a. Given the variable `userNameOne` below, print *"The username is Test User"*.  Use *Optional Binding* (`if let`) to print the name.
 
-Write 3 different ways of safely unwrapping and printing the value of `userName`.  If it is nil, print "No name".
+```swift
+var userNameOne: String? = "Test User"
+```
 
-- Method one: Check for nil and force unwrap
+b. Given the variable `userNameTwo` below, print *"The username is undefined"*.  Use the *nil coalescing operator* (`??`).
 
-- Method two: Optional binding
-
-- Method three: Nil coalescing
-
+```swift
+var userNameTwo: String? = nil
+```
 
 ## Question 2
 
