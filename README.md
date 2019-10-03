@@ -26,7 +26,7 @@ var rectOneWidth: Double? = 5
 var rectOneHeight: Double? = 10
 ```
 
-b. Given the varialbes `rectTwoWidth` and `rectTwoHeight` below, print "The are of rectTwo is not able to be calculated".  Use *Optional Binding* (`if let`) to print this message.
+b. Given the variables `rectTwoWidth` and `rectTwoHeight` below, print "The are of rectTwo is not able to be calculated".  Use *Optional Binding* (`if let`) to print this message.
 
 ```swift
 var rectTwoWidth: Double? = nil
@@ -35,12 +35,21 @@ var rectTwoHeight: Double? = nil
 
 ## Question 3
 
-Given the following optional variables `name`, `age` and `height`. Write code so that it prints `name`, `age` and `height` if they all have a value. If any are nil, print an error message. Try using optional binding.
+a. Given the variables `userOneName`, `userOneAge`, and `userOneHeight` below, write code that prints "Hello Anne!  You are 15 years old and 5.8 feet tall" (1 foot = 12 inches).  Use optional binding.
+
 
 ```swift
-var name: String?
-var age: Int?
-var height: Double?
+var userOneName: String? = "Anne"
+var userOneAge: Int? = 15
+var userOneHeight: Double? = 70
+```
+
+b. Given the variables `userTwoName`, `userTwoAge` and `userTwoHeight` below, write code that prints "Hello user!  You are 15 years old and I don't know how tall you are".  Use optional binding
+
+```swift
+var userTwoName: String? = nil
+var userTwoAge: Int? = 15
+var userTwoHeight: Double? = nil
 ```
 
 
