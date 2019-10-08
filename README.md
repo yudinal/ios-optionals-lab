@@ -9,12 +9,22 @@ a. Given the variable `userNameOne` below, print *"The username is Test User"*. 
 
 ```swift
 var userNameOne: String? = "Test User"
+if let userName = userNameOne {
+    print("The username is \(String(describing: userNameOne!))")
+} else {
+    print("Not \(String(describing: userNameOne!))")
+}
 ```
 
 b. Given the variable `userNameTwo` below, print *"The username is undefined"*.  Use the *nil coalescing operator* (`??`).
 
 ```swift
 var userNameTwo: String? = nil
+if userNameTwo != nil {
+    print("\(userNameTwo ?? "")")
+} else {
+    print("The username is undefined")
+}
 ```
 
 ## Question 2
@@ -24,6 +34,13 @@ a. Given the variables `rectOneWidth` and `rectOneHeight` below, print "The area
 ```swift
 var rectOneWidth: Double? = 5
 var rectOneHeight: Double? = 10
+var rectOneArea: Double? = (rectOneWidth!) * (rectOneHeight!)
+if rectOneArea != nil {
+    let rectOne = Int(rectOneArea!)
+    print("The area of rectOne is \(rectOne)")
+} else {
+    print("rectOne doesn't have an area")
+}
 ```
 
 b. Given the variables `rectTwoWidth` and `rectTwoHeight` below, print "The are of rectTwo is not able to be calculated".  Use *Optional Binding* (`if let`) to print this message.
@@ -31,6 +48,13 @@ b. Given the variables `rectTwoWidth` and `rectTwoHeight` below, print "The are 
 ```swift
 var rectTwoWidth: Double? = nil
 var rectTwoHeight: Double? = nil
+var rectTwoArea: Double?
+if let rectTwo = rectTwoArea {
+    let rectTwoArea = (rectTwoWidth!) * (rectTwoHeight!)
+    print("The area of rectOne is \(String(describing: rectTwo))")
+} else {
+    print("The area of rectTwo is not able to be calculated")
+}
 ```
 
 ## Question 3
